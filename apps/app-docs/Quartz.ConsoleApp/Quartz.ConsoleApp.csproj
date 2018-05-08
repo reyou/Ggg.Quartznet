@@ -57,11 +57,15 @@
     <Compile Include="Jobs\HelloJob.cs" />
     <Compile Include="quick-start\QuartzSampleApp\Program.cs" />
     <Compile Include="tutorial\CronTriggers.cs" />
+    <Compile Include="JobListeners\GggJobListener.cs" />
+    <Compile Include="SchedulerListeners\GggSchedulerListener.cs" />
     <Compile Include="tutorial\MoreAboutTriggers.cs" />
     <Compile Include="tutorial\MoreAboutJobsInjected.cs" />
     <Compile Include="tutorial\MoreAboutJobsMerged.cs" />
     <Compile Include="tutorial\MoreAboutJobs.cs" />
+    <Compile Include="tutorial\SchedulerListeners.cs" />
     <Compile Include="tutorial\SimpleTriggers.cs" />
+    <Compile Include="tutorial\TriggerListeners.cs" />
     <Compile Include="tutorial\UsingQuartz.cs" />
   </ItemGroup>
   <ItemGroup>

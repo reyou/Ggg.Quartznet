@@ -7,7 +7,17 @@ namespace Quartz.ConsoleApp
     {
         public static void Main(string[] args)
         {
-            RunMoreAboutJobsInjected();
+            RunSchedulerListeners();
+        }
+
+        private static void RunSchedulerListeners()
+        {
+            tutorial.SchedulerListeners.RunMain().GetAwaiter().GetResult();
+        }
+
+        public static void RunTriggerListeners()
+        {
+            TriggerListeners.RunMain().GetAwaiter().GetResult();
         }
 
         public static void RunMoreAboutJobsInjected()
