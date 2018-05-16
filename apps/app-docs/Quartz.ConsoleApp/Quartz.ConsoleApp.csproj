@@ -63,7 +63,7 @@
     <Compile Include="tutorial\MoreAboutJobsInjected.cs" />
     <Compile Include="tutorial\MoreAboutJobsMerged.cs" />
     <Compile Include="tutorial\MoreAboutJobs.cs" />
-    <Compile Include="tutorial\SchedulerListeners.cs" />
+    <Compile Include="tutorial\SchedulerListenersSample.cs" />
     <Compile Include="tutorial\SimpleTriggers.cs" />
     <Compile Include="tutorial\TriggerListeners.cs" />
     <Compile Include="tutorial\UsingQuartz.cs" />

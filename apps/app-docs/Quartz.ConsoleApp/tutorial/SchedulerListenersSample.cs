@@ -10,7 +10,7 @@ namespace Quartz.ConsoleApp.tutorial
     /// SchedulerListeners are much like ITriggerListeners and IJobListeners, except they receive notification 
     /// of events within the scheduler itself - not necessarily events related to a specific trigger or job.
     /// </summary>
-    public static class SchedulerListeners
+    public static class SchedulerListenersSample
     {
         public static async Task RunMain()
         {
